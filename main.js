@@ -13,7 +13,7 @@ function createWindow() {
     win = new Browserwindow({
         width: 800,
         height: 880,
-        icon: path.join(__dirname, 'app/assets/logo/emoy_logo.png'),
+        icon: path.join(__dirname, 'app/assets/logo/logo.png'),
         webPreferences: {
             nodeIntegration: true,
             webviewTag: true,
